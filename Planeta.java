@@ -1,3 +1,9 @@
+/**
+ * Aquesta es la classe planeta
+ * @author: Erick Gomez
+ * 
+ */
+
 public class Planeta 
 {
     /*
@@ -54,6 +60,7 @@ public class Planeta
     *Si hi ha una colisió, el pes del planeta 
     */
     public static int colisio(int meteorito){
+
         boolean colisio = false;
         if (colisio == true){
             Planeta.pes = Planeta.pes - meteorito.pes;
